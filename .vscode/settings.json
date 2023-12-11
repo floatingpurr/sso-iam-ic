@@ -1,0 +1,12 @@
+{
+  "editor.formatOnSave": true,
+  // turn it off for JS we will do this via eslint
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  // tell the ESLint plugin to run on save
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit"
+  },
+  "editor.tabSize": 2
+}

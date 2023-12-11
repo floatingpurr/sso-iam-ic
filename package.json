@@ -1,0 +1,29 @@
+{
+  "name": "saml-playground",
+  "version": "1.0.0",
+  "description": "A NodeJS-based example to tinker with SAML and AWS IAM Identity Center",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrea Mignone",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.54.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "eslint-plugin-simple-import-sort": "^10.0.0",
+    "prettier": "^3.1.0"
+  },
+  "dependencies": {
+    "@node-saml/passport-saml": "^4.0.4",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "passport": "^0.7.0",
+    "pretty-print-json": "^2.0.4"
+  }
+}
