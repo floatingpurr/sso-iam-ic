@@ -24,6 +24,8 @@ passport.use(
       // URL that goes from the Service Provider -> Identity Provider
       entryPoint: process.env.IDP_ENTRYPOINT,
       cert: fs.readFileSync(__dirname + '../cert/cert.pem', 'utf8')
+      // uncomment the following line to ignore signature validation
+      // wantAssertionsSigned: false
     },
     (profile, done) => {
       return done(null, profile);
